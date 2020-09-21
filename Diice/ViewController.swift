@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var diceImageView1: UIImageView!
     @IBOutlet weak var diceImageView2: UIImageView!
     
@@ -21,7 +21,12 @@ class ViewController: UIViewController {
         diceImageView2.image = #imageLiteral(resourceName: "dice3")
         
     }
-
-
+    
+    @IBAction func rollButtonPressed(_ sender: UIButton) {
+        print("roll button pressed")
+        diceImageView1.image = #imageLiteral(resourceName: "dice4")
+        diceImageView2.image = #imageLiteral(resourceName: "dice4")
+    }
+    
 }
 
