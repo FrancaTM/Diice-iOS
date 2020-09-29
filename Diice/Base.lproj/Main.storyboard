@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
@@ -17,9 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="purple-background" translatesAutoresizingMaskIntoConstraints="NO" id="iH1-71-bbA">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="purple-background" translatesAutoresizingMaskIntoConstraints="NO" id="iH1-71-bbA">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="one-logo-final" translatesAutoresizingMaskIntoConstraints="NO" id="kOJ-wt-Lhg">
                                 <rect key="frame" x="79" y="320" width="256" height="256"/>
@@ -70,9 +69,13 @@
                         <constraints>
                             <constraint firstItem="5H2-UC-IkZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3nq-8u-eYp"/>
                             <constraint firstItem="kOJ-wt-Lhg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AUO-Ac-FaP"/>
+                            <constraint firstItem="iH1-71-bbA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Du9-m2-xTJ"/>
+                            <constraint firstItem="iH1-71-bbA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="PA6-83-SKT"/>
                             <constraint firstItem="5H2-UC-IkZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Phu-9e-wKz"/>
+                            <constraint firstItem="iH1-71-bbA" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="TR0-U4-cRl"/>
                             <constraint firstItem="kOJ-wt-Lhg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="b6w-IZ-ZbQ"/>
                             <constraint firstItem="gkf-Tv-6Ov" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="220" id="kU2-y1-5bd"/>
+                            <constraint firstAttribute="bottom" secondItem="iH1-71-bbA" secondAttribute="bottom" id="pG8-Tx-2aa"/>
                             <constraint firstItem="gkf-Tv-6Ov" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="w9t-AS-vze"/>
                         </constraints>
                     </view>
